@@ -1,0 +1,43 @@
+.arrow-right-l::after {
+    content: '';
+    position: absolute;
+    left: 63px;
+    margin-top: 2px;
+    transform: translateY(-50%) rotate(-90deg);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #4a5568 transparent transparent transparent;
+}
+
+.vertical-left::after {
+    content: '';
+    position: absolute;
+    left: -5px;
+    margin-top: 73px; /*Adjust if you change height*/
+    transform: translateY(-50%);
+    height: 135px; /* Adjust the height or margins if you need to add more lines in each step */
+    width: 2;
+    border-right: 4px dashed #4a5568;
+}
+
+.vertical-right::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    margin-top: 73px; /*Adjust if you change height*/
+    transform: translateY(-50%);
+    height: 135px; /* Adjust the height or margins if you need to add more lines in each step */
+    width: 2;
+    border-right: 4px dashed #4a5568;
+}
+
+.arrow-to-left-r::after {
+    content: '';
+    position: absolute;
+    right: 59px;
+    margin-top: 2px;
+    transform: translateY(-50%) rotate(90deg);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #4a5568 transparent transparent transparent;
+}
