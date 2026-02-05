@@ -1,35 +1,35 @@
 {
-    "name": "snake-timeline",
-    "version": "1.0.1",
-    "description": "It s a timeline with a snake format",
-    "main": "SnakeTimeline.jsx",
-    "author": "Martin Garrido",
-    "homepage": "https://snake-timeline.vercel.app/",
-    "license": "MIT",
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
-    "dependencies": {
-        "date-fns": "^4.1.0",
-        "lucide-react": "^0.475.0",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
-        "next": "15.1.7"
-    },
-    "devDependencies": {
-        "typescript": "^5",
-        "@types/node": "^20",
-        "@types/react": "^19",
-        "@types/react-dom": "^19",
-        "postcss": "^8",
-        "tailwindcss": "^3.4.1",
-        "eslint": "8.48.0",
-        "eslint-config-prettier": "^9.0.0",
-        "eslint-import-resolver-typescript": "^3.6.3",
-        "eslint-plugin-import": "^2.28.1",
-        "eslint-plugin-prettier": "^5.0.0"
-    }
+  "name": "snake-timeline",
+  "version": "1.0.1",
+  "description": "It s a timeline with a snake format",
+  "main": "SnakeTimeline.jsx",
+  "author": "Martin Garrido",
+  "homepage": "https://snake-timeline.vercel.app/",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.475.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.11"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0"
+  }
 }
