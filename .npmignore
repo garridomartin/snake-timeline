@@ -1,0 +1,8 @@
+*
+
+!templates/
+!scripts/
+!types/
+!components/
+!package.json
+!README.md
